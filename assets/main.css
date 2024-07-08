@@ -1,0 +1,87 @@
+body {
+    /* background-color: #111216; */
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
+}
+
+
+.thediv{
+    text-align: center;
+    justify-content: center; /* Center content horizontally */
+}
+
+
+.cell {
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid #000;
+    justify-content: center; /* Center content horizontally */
+    text-align: center; 
+}
+
+.inner-cell {
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center content vertically */
+}
+
+table {
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+
+    display: block;
+    height: 2em;
+    min-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    background: lightgray;
+    border: 1px solid #000;
+;
+}
+
+button:hover {
+    background: grey;
+}
+
+.cell.hidden {
+    background-color: gray;
+}
+
+.cell.revealed.mine{
+    background-color: red;
+}
+
+.finished .cell.flagged.mine{
+    background-color: green;
+}
+
+.finished .cell.flagged:not(.mine){
+    background-color: red;
+}
+
+.cell.empty-1 {
+    color: blue;
+}
+
+.cell.empty-2 {
+    color: green;
+}
+
+
+.cell.empty-3 {
+    color: red;
+}
+
+
+.cell.empty-4 {
+    color: purple;
+}
+
+
+.cell.empty-5 {
+    color: black;
+}
